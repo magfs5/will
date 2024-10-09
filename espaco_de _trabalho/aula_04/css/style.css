@@ -13,13 +13,13 @@ h2{
     
 }
 
-.vermelho{background-color: rgb(220, 20, 210);
-ho
+.vermelho{background-color: rgb(180, 20, 220);
+
 
 }
 
 
-.marron{ background-color: #c466149c;
+.marron{ background-color: #c46619;
 
 }
 
@@ -29,7 +29,7 @@ a{
     text-decoration: none;/* retira o sublinhado do link*/
     padding: 10px;
     border-radius: 15px;
-    margin-top: 50 px;
+    margin-top: 1 px;
     
 }
 a:hover{
