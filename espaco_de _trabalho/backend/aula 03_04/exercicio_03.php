@@ -1,8 +1,6 @@
 <?php
-$turno = "V";
 
-
-
+$turno = "N";
 
 if ($turno == "M" ) {
     echo "bomDia!";
