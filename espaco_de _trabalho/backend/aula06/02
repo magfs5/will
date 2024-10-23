@@ -1,0 +1,40 @@
+<?php
+
+$numeroAlunos = 5;
+$frequencia=[];
+
+
+
+for ($i=1; $i <=  $numeroAlunos; $i++) { 
+    $nome = readline("Digite o nome do aluno $i:");
+    $aulasfrequentadas = readline("Digite o numero total de aulas frequentadas $i:");
+    $totaldeaulas= readline("numero do aluno: ");
+   
+    $media = ($aulasfrequentadas / $totaldeaulas ) *100;
+
+    $frequencia[$nome] = $media;
+}
+echo "frequencia Escolar;\n";
+foreach($frequencia as $aluno => $media){
+
+
+    echo "$aluno - Média: $media\n";
+}
+echo "percentual de frequência \n";
+foreach($frequencia as $aluno => $media){
+    if($media >= 5){
+        echo "$aluno teve frequência $media.\n";
+   }else{
+    echo "$aluno aulas ministradas $media.\n";
+   }
+}
+
+
+
+
+
+
+
+
+
+?>
