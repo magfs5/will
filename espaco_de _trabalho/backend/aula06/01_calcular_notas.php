@@ -14,6 +14,7 @@ echo "Boletim Escolar;\n";
 foreach($boletim as $aluno => $media){
 
 
+
     echo "$aluno - Média: $media\n";
 }
 echo "Resultados Finais \n";
