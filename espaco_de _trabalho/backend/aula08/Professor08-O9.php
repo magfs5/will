@@ -3,10 +3,10 @@
 //1. criar o arquivo o professor. php.
 //2. dentro do arquivo Profssor. php, você irá criar uma classe chamada professor.
 //3. Dentro da classe Professor, você irá declarar os seguintes atributos:
-//* nome
-// *cpf
-//* disciplina
-//*identificação
+// nome
+// cpf
+//disciplina
+//.     identificação
 
 //4.E também os seguintes métodos:
 //getDisciplina
@@ -35,7 +35,8 @@ class Aluno {
         $this->disciplina = $disciplinanova;
   }
         
-  public function setDisciplina($cpfnovo){
+
+  public function setcpf($cpfnovo){
         $this->cpf = $cpfnovo;
         
     
